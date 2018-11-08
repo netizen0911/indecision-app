@@ -23,4 +23,4 @@ const render = () => {
     ReactDOM.render(jsx, document.getElementById('app'));
 }
 
-render();
+render(); // Render the app to the Document

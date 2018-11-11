@@ -41,9 +41,6 @@ var IndecisionApp = function (_React$Component) {
                     options: prevState.options.filter(function (option) {
                         return optionToRemove !== option;
                     })
-                    // options: prevState.options.filter((option) => {
-                    //     return optionToRemove !== option;
-                    // })
                 };
             });
         }
@@ -68,12 +65,6 @@ var IndecisionApp = function (_React$Component) {
                     options: prevState.options.concat(option)
                 };
             });
-
-            // this.setState((prevState) => {
-            //     return {
-            //         options: prevState.options.concat(option)
-            //     };
-            // });
         }
     }, {
         key: 'render',

@@ -1,20 +1,7 @@
-// function isAdult(age) {
-//   if (age >= 18) {
-//     return true
-//   } else {
-//     return false
-//   }
-// }
-
-// function canDrink(age) {
-//   if (age >= 21) {
-//     return true
-//   } else {
-//     return false
-//   }
-// }
-
-const isAdult = (age) => age >= 18;
+export const isAdult = (age) => age >= 18;
 const canDrink = (age) => age >= 21;
+const isSenior = (age) => age >= 65;
 
-export { isAdult, canDrink}
+// export default (age) => age >= 65;
+
+export { canDrink, isSenior as default}

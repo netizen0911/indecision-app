@@ -5,11 +5,10 @@
   "author": "Paul G.",
   "license": "MIT",
   "scripts": {
-    "serve": "live-server public",
-    "build": "webpack --watch",
-    "build-babel": "babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch",
-    "play": "babel src/playground/build-it-visible.js --out-file=public/scripts/app.js --presets=env,react --watch",
-    "start": "concurrently \"live-server public\" \"babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch\" "
+    "serve": "live-server public/",
+    "build": "webpack",
+    "dev-server": "webpack-dev-server",
+    "play": "babel src/playground/build-it-visible.js --out-file=public/scripts/app.js --presets=env,react --watch"
   },
   "dependencies": {
     "babel-cli": "6.24.1",
@@ -18,7 +17,6 @@
     "babel-preset-env": "1.5.2",
     "babel-preset-react": "6.24.1",
     "concurrently": "^4.0.1",
-    "live-server": "^1.2.0",
     "react": "16.0.0",
     "react-dom": "16.0.0",
     "validator": "8.0.0",
@@ -26,6 +24,7 @@
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
-    "eslint-plugin-react": "^7.11.1"
+    "eslint-plugin-react": "^7.11.1",
+    "live-server": "^1.2.0"
   }
 }

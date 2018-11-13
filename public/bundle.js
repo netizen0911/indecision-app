@@ -60,45 +60,16 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 0);
+/******/ 	return __webpack_require__(__webpack_require__.s = 16);
 /******/ })
 /************************************************************************/
-/******/ ([
-/* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/******/ ({
 
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__person_js__ = __webpack_require__(2);
-// import './utils.js';
-// import subtract, {add, square} from './utils.js';
-// console.log('app.js is running now!');
-// console.log(square(4));
-// console.log(add(50,50));
-// console.log(subtract(50,30));
+/***/ 16:
+/***/ (function(module, exports) {
 
-
-console.log(__WEBPACK_IMPORTED_MODULE_0__person_js__["c" /* isAdult */](18));
-console.log(__WEBPACK_IMPORTED_MODULE_0__person_js__["a" /* canDrink */](18));
-console.log(__WEBPACK_IMPORTED_MODULE_0__person_js__["b" /* default */](65));
-
-/***/ }),
-/* 1 */,
-/* 2 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return canDrink; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return isSenior; });
-const isAdult = (age) => age >= 18;
-/* harmony export (immutable) */ __webpack_exports__["c"] = isAdult;
-
-const canDrink = (age) => age >= 21;
-const isSenior = (age) => age >= 65;
-
-// export default (age) => age >= 65;
-
-
+throw new Error("Module parse failed: C:\\Users\\pguet\\Desktop\\react-projects\\indecision-app\\src\\app.js Unexpected token (4:17)\nYou may need an appropriate loader to handle this file type.\n| import ReactDOM from 'react-dom';\r\n| \r\n| const template = <p>Testing 123</p>;\r\n| ReactDOM.render(template, document.getElementById('app'));");
 
 /***/ })
-/******/ ]);
+
+/******/ });
